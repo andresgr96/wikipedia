@@ -35,7 +35,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    
+
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -113,10 +113,29 @@
   text-align: justify;
 }
 
+.news {
+  background-color: rgb(206,223,242);
+  border: 1px solid;
+  text-align: justify;
+  padding: 5px;
+}
+
 .section-title {
   font-weight: bold;
   background: #cef2e0;
   border: 1px solid;
+  margin: 5px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.news-title {
+  background-color: rgb(206,223,242);
+  font-weight: bold;
+  border: 1px solid;
+  margin: 5px;
+  padding: 3px;
+  font-size: 18px;
 }
 .welcome{
   text-align: center;
