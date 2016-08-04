@@ -105,7 +105,18 @@
     background: none;
 }
 
+.featured {
+  background: #f5fffa;
+  border: 1px solid;
+  padding: 5px;
+  text-align: justify;
+}
 
+.section-title {
+  font-weight: bold;
+  background: #cef2e0;
+  border: 1px solid;
+}
 
 @media(min-width:768px) {
     #wrapper {
