@@ -30,11 +30,12 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #4d4d4d;
+    background: #F1F0F0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -116,6 +117,13 @@
   font-weight: bold;
   background: #cef2e0;
   border: 1px solid;
+}
+.welcome{
+  text-align: center;
+  padding-left: 16px;
+  padding-bottom: 7px;
+  top:0;
+
 }
 
 @media(min-width:768px) {
